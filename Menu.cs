@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace TP_2._0_Corporacion_Paraguas
 {
-    class Vacuna : Medicamento
+    class Menu
     {
-        public Vacuna(string nombre, string id, Designaciones designacion) : base(nombre, id, designacion)
-        {
-
+        private List<Sucursal> sucursales;
+        public Menu() 
+        { 
         }
+
+
     }
 }
